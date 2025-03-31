@@ -14,6 +14,8 @@ public class OpenXRPlatformSwitcher
     {
         typeof(Unity.XR.OpenXR.Features.PICOSupport.PICOFeature),
         typeof(Unity.XR.OpenXR.Features.PICOSupport.OpenXRExtensions),
+        typeof(UnityEngine.XR.Hands.OpenXR.HandTracking),
+        typeof(UnityEngine.XR.OpenXR.Features.Interactions.HandInteractionProfile),
         typeof(UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile),
         typeof(UnityEngine.XR.OpenXR.Features.Interactions.PICO4UltraControllerProfile),
         typeof(UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile),
@@ -25,8 +27,11 @@ public class OpenXRPlatformSwitcher
     public static readonly Type[] RequiredFeaturesTypesMeta =
     {
         typeof(UnityEngine.XR.OpenXR.Features.MetaQuestSupport.MetaQuestFeature),
+        typeof(UnityEngine.XR.Hands.OpenXR.HandTracking),
+        typeof(UnityEngine.XR.OpenXR.Features.Interactions.HandInteractionProfile),
         typeof(UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile),
         typeof(UnityEngine.XR.OpenXR.Features.Interactions.MetaQuestTouchPlusControllerProfile),
+        typeof(UnityEngine.XR.OpenXR.Features.Interactions.MetaQuestTouchProControllerProfile),
         typeof(UnityEngine.XR.OpenXR.Features.Interactions.MetaQuestTouchProControllerProfile)
     };
 
